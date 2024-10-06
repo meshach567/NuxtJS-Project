@@ -22,7 +22,14 @@ export default defineNuxtConfig({
           { rel: 'preconnect', href: 'https://fonts.googleapis.com/' },
           { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
           { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap' },
-          { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css', integrity: "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC", crossorigin: "anonymous"}
+          { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css', integrity: "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC", crossorigin: "anonymous"},
+          { rel: 'stylesheet', href: 'assets/vendor/swiper/swiper-bundle.min.css'}, 
+          { rel: 'stylesheet', href: 'assets/vendor/glightbox/css/glightbox.min.css'}, 
+          { rel: 'stylesheet', href: 'assets/vendor/aos/aos.css'},
+          { rel: 'stylesheet', href: 'assets/vendor/bootstrap-icons/bootstrap-icons.css'},
+          { rel: 'stylesheet', href: 'assets/vendor/bootstrap/css/bootstrap.min.css'}
+
+          
       ],
       script: [
         {
@@ -38,6 +45,11 @@ export default defineNuxtConfig({
         {
           src: '/js/main.js',
         },
+        {
+          type: "application/json",
+          
+          
+        }
       ],
     },
 
